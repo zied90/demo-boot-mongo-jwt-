@@ -17,9 +17,11 @@ import java.util.Collection;
 @NoArgsConstructor
 @ToString
 public class Product {
+
     @Id
     private String id;
     private String name;
+    private double price;
     @DBRef
-    private Collection<Product>products=new ArrayList<>();
+    private Category category;
 }
