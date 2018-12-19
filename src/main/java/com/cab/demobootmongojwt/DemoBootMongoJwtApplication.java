@@ -20,7 +20,6 @@ public class DemoBootMongoJwtApplication {
     public static void main(String[] args) {
         SpringApplication.run(DemoBootMongoJwtApplication.class, args);
 
-
     }
     @Bean
     CommandLineRunner start(CategoryRepository categoryRepository , ProductRepository productRepository) {
