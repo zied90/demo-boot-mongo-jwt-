@@ -21,6 +21,7 @@ public class DemoBootMongoJwtApplication {
         SpringApplication.run(DemoBootMongoJwtApplication.class, args);
 
     }
+    //ajouter  des info catego+prod
     @Bean
     CommandLineRunner start(CategoryRepository categoryRepository , ProductRepository productRepository) {
         return args -> {
