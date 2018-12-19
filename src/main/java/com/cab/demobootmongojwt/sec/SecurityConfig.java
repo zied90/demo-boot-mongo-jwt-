@@ -1,4 +1,4 @@
 package com.cab.demobootmongojwt.sec;
-//Class pour spring security
+//Class pour Spring security
 public class SecurityConfig {
 }
