@@ -16,6 +16,7 @@ import java.util.Collection;
 @NoArgsConstructor
 @ToString
 public class Category {
+    //CLE PRIMAIRE
     @Id
     private String id;
     private String name;
