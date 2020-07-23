@@ -12,6 +12,7 @@ import java.util.Collection;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Category {
+    //CLE PRIMAIRE
     @Id
     @Getter
     @Setter
